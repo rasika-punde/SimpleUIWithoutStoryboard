@@ -28,7 +28,6 @@ class ViewController: UIViewController {
         button.center = CGPoint(x: w / 2, y: h / 2 +  label.frame.height * 2)
         button.titleLabel?.font = UIFont.systemFont(ofSize: 22, weight: .regular)
         button.backgroundColor = UIColor.blue
-        
         self.view?.addSubview(button)
         
     }
